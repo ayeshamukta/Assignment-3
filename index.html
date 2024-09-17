@@ -20,6 +20,7 @@
                 clifford: '#da373d',
                 parrot: '#ABEF5F',
                 gray: '#737373',
+                p_gray: '#494949',
               },
               fontFamily: {
                 Manrope: 'Manrope',
@@ -62,7 +63,7 @@
 
                     </div>
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden shadow-lg rounded-full">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-5 w-5"
@@ -75,12 +76,26 @@
                               stroke-width="2"
                               d="M4 6h16M4 12h8m-8 6h16" />
                           </svg>
-                        </div>
+                          
                         
                       </div> 
                 </div>
               </div>
         </nav>
+
+        <!-- banner -->
+        <div class="card bg-base-100  ">
+            <figure class="px-10 pt-10">
+              <img src="assets/banner.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center lg:w-[990px] mx-auto space-y-3">
+              <h2 class="card-title font-bold text-6xl lg:w-[1000px]">A barn house of this design has a striking appearance</h2>
+              <p class="text-p_gray text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <div class="card-actions flex flex-row">
+                <button class="bg-[#dcffb5] rounded-full  px-28 lg:px-6 py-1"><span class="font-bold">View Details</span> <a class=""><i class="fa-solid fa-arrow-right -rotate-45 bg-parrot rounded-full shadow-xl p-2"></i></a></button>
+              </div>
+            </div>
+          </div>
     </header>
 </body>
 </html>
